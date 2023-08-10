@@ -22,7 +22,6 @@ refreshBtnEl.addEventListener("click", refreshBtnElHandler)
 
 function createsRandomWord (arr, length) {
   word = getRandomWord(arr, length)
-  console.log(word)
   wordEl.textContent = shuffleLetters(word)
 }
 
