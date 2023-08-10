@@ -173,8 +173,7 @@ button {
   color: #F0F0F0;
 }
 
-.refresh-btn:hover,
-.refresh-btn:focus {
+.refresh-btn:hover {
   background-color: #252525;
   border: 1px solid #252525;
 }
@@ -184,8 +183,7 @@ button {
   color: #F0F0F0;
 }
 
-.check-btn:hover,
-.check-btn:focus {
+.check-btn:hover {
   background-color: #e8e7e7;
   border: 1px solid #e8e7e7;
   color: #1F1209;
