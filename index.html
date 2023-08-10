@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Scrambler</title>
+
+  <link rel="icon" href="./img/titlle-icon.png" type="image/icon type">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title-container">
+      <h1 class="title">🎓 Word Scrambler</h1>
+    </div>
+
+    <div class="wrapper">
+      <div class="word-container">
+        <h2 class="word"></h2>
+        <div class="range-container">
+          <p class="range-slider-title">Length</p>
+          <p class="range-slider-value">7</p>
+        </div>
+        <input type="range" min="4" max="12" value="7" class="range-slider" id="myRange">
+        <input type="text" id="input" placeholder="Enter a word" autofocus />
+        <ul class="buttons-container">
+          <li><button class="refresh-btn">Refresh word</button></li>
+          <li><button class="check-btn">Check word</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="img-wrapper">
+        <p class="img-text">The word scramble game's history traces back to the early 20th century, emerging as a popular pastime in word puzzles and anagrams. </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js" type="module"></script>
+</body>
+</html>
