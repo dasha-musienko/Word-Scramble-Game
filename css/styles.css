@@ -14,7 +14,7 @@ body {
   align-items: center;
 
 
-  background-image: url(/img/background-img.jpeg);
+  background-image: url(../img/background-img.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -195,7 +195,7 @@ button {
   position: relative;
   margin: 20px 70px;
   border-radius: 24px;
-  background-image: url(/img/words-img.jpeg);
+  background-image: url(../img/words-img.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 550px;
